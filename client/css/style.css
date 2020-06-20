@@ -1,0 +1,77 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(181, 197, 209);
+  font-family: "Oxygen", sans-serif;
+}
+.navbar{
+background-color:  #343a40;
+box-shadow: 2px 3px 10px 8px rgb(48, 46, 46);
+}
+.navbar-brand{
+  margin-left: 10px;
+  font-size: 2em;
+}
+.nav-item{
+  color: #fff;
+  padding: .5px;
+  background-color: rgb(236, 232, 232);
+}
+.navbar-dark .navbar-toggler {
+  color: #fff;
+  background-color: rgb(82, 87, 87);
+}
+.navbar-toggler-icon{
+  border: 1px solid black;
+  border-radius: 5%;
+}
+.navbar-nav{
+  text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(20, 18, 18);
+}
+h2{
+  color: rgb(46, 48, 49);
+  margin-top: 15px;
+}
+.chicken{
+  color: black;
+  background-color: rgb(221, 205, 186);
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px 2px;
+  justify-content: stretch;
+}
+.C{
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #343a40;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+@media (max-width:575px){
+  .navbar{
+    justify-content: stretch;
+  }
+.navbar-dark .navbar-nav .nav-link{
+  background-color: rgb(202, 170, 64);
+  border: .5px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+} 
+.nav-item{
+  background-color: black;
+}
+button .navbar-toggler-icon{
+  border:1px solid rgb(251, 251, 251);
+  }
+.C{
+  margin-left: 115px;
+  width: 50%;
+}
+}
+
